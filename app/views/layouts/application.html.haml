@@ -8,9 +8,28 @@
     = csrf_meta_tags
     = yield :stylesheets
   %body
-    #nav
-      .logo_small
-      .right_round
+    #header_container
+      #nav
+        #logo_container
+          .logo_small
+          .right_round
+          .bottom_round
+      .bottom_black
+      .bottom_gray
+        .nav_items
+          .nav_item.selected
+            selected
+          .nav_item
+            normal
+          .nav_item
+            normal
+          .nav_item
+            normal
+          .nav_item
+            normal
+            normal
+          .nav_item
+            normal
 
     -if notice == nil
       %p.notice

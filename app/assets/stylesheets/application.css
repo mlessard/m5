@@ -17,6 +17,27 @@ body {
   margin: 0px;
 }
 
+#nav {
+  overflow: visible;
+}
+
+#content {
+  clear: left;
+  float: left;
+}
+
+#header_container {
+  background-color: #B0CF71;
+  width: 100%;
+  height: 211px;
+}
+
+#logo_container {
+  height: 211px;
+  width: 255px;
+  float: left;
+}
+
 .logo_small {
   float: left;
 	background-image: url(/images/5mlogo_nav.png); 
@@ -27,8 +48,50 @@ body {
 
 .right_round {
   float: left;
-  background-image: url(/images/5mlogo_right_nav.png); 
+  background-image: url(/images/5mlogo_right_nav1.png); 
   height: 211px;
   background-repeat: no-repeat;
   width: 54px;
+}
+
+.nav_items {
+  background-color: #B0CF71;
+  overflow: visible;
+  height: 160px;
+  float: left;
+}
+
+.nav_item .selected {
+  background-color: red;  
+}
+
+.nav_item {
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-color: #000000;
+  color: white;
+  overflow: visible;
+}
+
+.bottom_round {
+  background-image: url(/images/5mlogo_bottom_nav.png); 
+  width: 211px;
+  background-repeat: no-repeat;
+  height: 54px;
+  clear: left;
+  float: left;
+}
+
+.bottom_gray {
+  height: 10px;
+  width: 100%;
+  vertical-align: bottom;
+  background-color: gray;
+
+}
+.bottom_black {
+  height: 40px;
+  width: 100%;
+  background-color: black;
 }
