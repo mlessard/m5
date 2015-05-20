@@ -15,19 +15,24 @@
           .right_round
           .bottom_round
       %ul.nav_items
-        %li.nav_item.selected
-          selected
+        %li.selected_item.nav_item
+          .text_container
+            ABOUT
         %li.nav_item
-          normal
+          .text_container
+            COMMERCIAL
         %li.nav_item
-          normal
+          .text_container
+            RESIDENTIAL
         %li.nav_item
-          normal
+          .text_container
+            RENTAL
         %li.nav_item
-          normal
-          normal
+          .text_container
+            FINANCE
         %li.nav_item
-          normal
+          .text_container
+            OUR GROUP
 
     -if notice == nil
       %p.notice

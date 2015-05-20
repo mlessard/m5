@@ -56,27 +56,38 @@ body {
 
 .nav_items {
   overflow: inherit;
-  height: 160px;
+  height: 110px;
   float: left;
   list-style-type: none;
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 47px;
+  top: 97px;
   left: 250px;
+  padding-left: 30px;
 }
 
-.nav_item .selected {
-  background-color: #212121;  
+
+.text_container {
+  margin-top: 80px;
 }
 
 .nav_item {
   float: left;
   width: 150px;
-  height: 150px;
-  background-color: #000000;
+  height: 100px;
   color: white;
   overflow: visible;
+  background-image: url(/images/black_house.png);
+  vertical-align: bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+}
+
+.nav_item.selected_item {
+  background-image: url(/images/green_house.png)
 }
 
 .bottom_round {
